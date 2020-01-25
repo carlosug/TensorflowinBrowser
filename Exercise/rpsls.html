@@ -1,10 +1,12 @@
 <html>
 <head>
+    <title>Predict your own gestures</title>  
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"> </script>
 <script src="webcam.js"></script>
 <script src="rps-dataset.js"></script>
 </head>
 <body>
+    <h1>This is the heading</h1>
 	<div>
 		<div>
 			<video autoplay playsinline muted id="wc" width="224" height="224"></video>
@@ -26,7 +28,7 @@
 	<button type="button" id="stopPredicting" onclick="stopPredicting()" >Stop Predicting</button>
     <button type="button" id="saveModel" onclick="saveModel()" >Download Model</button>
 	<div id="prediction"></div>
-    <div id="dummy">How it works?.</div>
+    <div id="dummy">How it works?. <br> Train a model in your web browser.<br>Apply transfer learning to train a model to recognize hand gestures of rock, paper and scissors</div>
 </body>
 
 <script src="index_exercise.js"></script>
