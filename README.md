@@ -8,4 +8,4 @@ _ANN_
 
 _CNN_
 
-https://carlosug.github.io/TensorflowinBrowser/Exercise/rpsls.html
+[Link](https://carlosug.github.io/TensorflowinBrowser/Exercise/rpsls.html)
