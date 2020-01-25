@@ -7,3 +7,5 @@ Script List:
 _ANN_
 
 _CNN_
+
+https://carlosug.github.io/TensorflowinBrowser/Exercise/rpsls.html
