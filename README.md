@@ -4,10 +4,12 @@ You can find totally available source [here:](https://github.com/lmoroney/dlaico
 
 Script List:
 
-_ANN_
+**Study1: **
 
-_CNN_
+**Study2: **
 
-**Study4**
+**Study3: **
+
+**Study4: **
 [Predict your own gestures using Transfer Learning with Pre-Trained Models](https://carlosug.github.io/TensorflowinBrowser/src/study4/rpsls.html)
 
