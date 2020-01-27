@@ -8,5 +8,6 @@ _ANN_
 
 _CNN_
 
-[Predict your own gestures using Transfer Learning with Pre-Trained Models](https://carlosug.github.io/TensorflowinBrowser/Exercise/rpsls.html)
+**Study4**
+[Predict your own gestures using Transfer Learning with Pre-Trained Models](https://carlosug.github.io/TensorflowinBrowser/src/study4/rpsls.html)
 
