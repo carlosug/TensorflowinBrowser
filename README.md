@@ -12,6 +12,7 @@ Script List:
 [Build and train a NN that classify images in the Fashion MNIST dataset](https://carlosug.github.io/TensorflowinBrowser/src/study2/fashion-mnist.html)
 
 **Study3:** _this a developing story check back for updates._
+
 [Toxicity Classifier: I want to kill you!](https://carlosug.github.io/TensorflowinBrowser/src/study3/3.1/toxicity.html)
 
 [Image Classifier: Real Zaragoza animal](https://carlosug.github.io/TensorflowinBrowser/src/study3/3.2/toxicity.html)
