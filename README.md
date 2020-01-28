@@ -13,6 +13,7 @@ Script List:
 
 **Study3:** _this a developing story check back for updates._
 [Toxicity Classifier: I want to kill you!](https://carlosug.github.io/TensorflowinBrowser/src/study3/3.1/toxicity.html)
+
 [Image Classifier: Real Zaragoza animal](https://carlosug.github.io/TensorflowinBrowser/src/study3/3.2/toxicity.html)
 
 **Study4:**
