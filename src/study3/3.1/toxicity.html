@@ -22,7 +22,7 @@ toxicity.load(threshold).then(model => { //pass the prediction confiance to the 
 </head>
 <body>
  <h1>Toxicity Classifier: I want to kill you!</h1>
-    <p>What is it for? <br> A script that uses pre-trained model and convert into usabe javascript format as text based model JSON file.<br>Use a toxicity model to determine if a phrase is toxic in a number of categories. It gives a set of probabilities ranged from insult to threat.<br>Link for pre-trained model: https://github.com/tensorflow/tfjs-models/tree/master/toxicity.<br>Press alt+crl+i to active developer tool</p>
+    <p>What is it for? <br> A script that uses pre-trained model and convert into usabe javascript format as text based model JSON file.<br>Use a toxicity model to determine if a phrase is toxic in a number of categories. It gives a set of probabilities ranged from insult to threat.<br>Link for pre-trained model: https://github.com/tensorflow/tfjs-models/tree/master/toxicity.<br>Press Crtl+Shift+I to active developer tool</p>
     </body>
 </html>    
 <!-- Threshold is the min prediction confiance. If prediction comes over this value, we will match match it. If values, not insult, is greater than prediction confiance, threshold, toxicity will report that is not an insult. If insult is greater than threshold, toxicity will report its an insult, true-->
