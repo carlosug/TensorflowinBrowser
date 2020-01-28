@@ -1,0 +1,24 @@
+<html>
+<head>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest">//load latest version mobilenet </script> 
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@1.0.0"> </script> 
+</head>
+<body> <!-- add body for html -->
+    <h1>Image Classifier: Real Zaragoza animal</h1>
+    <img id="img" src="rzgz.jpeg"></img>
+    <h2>Predictions:</h2>
+    <div id="output" style="font-family:courier;font-size:24px;height=300px;right: 150px"></div>
+</body>
+<script> //script that passes the image to mobilenet and gets a set of classifications back 
+    const img = document.getElementById('img'); // create varaible with the image
+    const outp = document.getElementById('output');
+    mobilenet.load().then(model => { //load the model in json and once its done, the model is ready for running
+        model.classify(img).then(predictions => { //pass the image as parameter to the model classify function and get back with predictions
+            console.log(predictions);
+            for(var i = 0; i<predictions.length; i++){ //once we get the predictions, we loop through them with for loop
+                outp.innerHTML += "<br/>" + predictions[i].className + " : " + predictions[i].probability;
+            }
+        });
+    });
+</script>
+</html>

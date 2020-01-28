@@ -1,0 +1,28 @@
+<html>
+<head>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script> <!-- loading tensorflow,js-->
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/toxicity"></script> <!-- loading toxicity model. HERE is where should put url of the model github-->
+<script> 
+const threshold = 0.9; 
+toxicity.load(threshold).then(model => { //pass the prediction confiance to the model
+    const b = ['I want to fuck you'];
+    const sentences = b; //array 
+    model.classify(sentences).then(predictions => { //we then call the model classify parsing it the sentence and then we get the predictions
+        console.log(predictions);
+        for(i=0; i<7; i++){ //iterate full list of prediction, 7
+            if(predictions[i].results[0].match){
+                console.log(predictions[i].label + 
+                            " was found with probability of " + 
+                            predictions[i].results[0].probabilities[1]);                
+            }  
+        }
+    });
+});
+</script> 
+</head>
+<body>
+ <h1>Toxicity Classifier: I want to kill you!</h1>
+    <p>What is it for? <br> A script that uses pre-trained model and convert into usabe javascript format as text based model JSON file.<br>Use a toxicity model to determine if a phrase is toxic in a number of categories. It gives a set of probabilities ranged from insult to threat.<br>Link for pre-trained model: https://github.com/tensorflow/tfjs-models/tree/master/toxicity.<br>Press alt+crl+i to active developer tool</p>
+    </body>
+</html>    
+<!-- Threshold is the min prediction confiance. If prediction comes over this value, we will match match it. If values, not insult, is greater than prediction confiance, threshold, toxicity will report that is not an insult. If insult is greater than threshold, toxicity will report its an insult, true-->
