@@ -2,7 +2,7 @@
 This repository contains the weekly work exercises for learning Deep Learning.
 You can find totally available source [here:](https://github.com/lmoroney/dlaicourse)
 Pre-trained machine learning models can be found [here:](https://github.com/tensorflow/tfjs-models)
-
+![](images/javalogo.png)
 Script List:
 
 **Study1:**
